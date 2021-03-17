@@ -16,6 +16,11 @@ body {
     justify-content: center;
 }
 
+.big-div {
+    background-color: hotpink;
+    justify-content: center;
+}
+
 .div-1 {
     background-color: blueviolet;
 }
@@ -32,10 +37,11 @@ body {
 p {
     color: red;
     font-size: 1rem;
+    text-align: right !important;
 }
 
 .image {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin-bottom: 1rem;
 }
