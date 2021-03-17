@@ -4,8 +4,30 @@ h1 {
 }
 
 body {
-    background-color: lavender;
+    background-color: none;
 }
+
+
+#home-container {
+    height: 100vh;
+    position: relative;
+    background: url(/static/images/exterior-01.jpg) no-repeat center center fixed;
+    background-size: cover;
+    justify-content: center;
+}
+
+.div-1 {
+    background-color: blueviolet;
+}
+
+.div-2 {
+    background-color: yellow;
+}
+
+.div-3 {
+    background-color: green;
+}
+
 
 p {
     color: red;
@@ -13,7 +35,7 @@ p {
 }
 
 .image {
-    width: 50vw;
+    width: 80%;
     height: auto;
     margin-bottom: 1rem;
 }
