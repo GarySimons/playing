@@ -1,0 +1,1 @@
+document.getElementById('jstest').innerHTML = "This is JavaScript";
